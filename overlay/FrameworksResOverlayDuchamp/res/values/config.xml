@@ -657,4 +657,8 @@
      during initialization when the setting is still null. -->
     <bool name="config_dozePickupGestureEnabled">false</bool>
 
+    <!-- Pocket Lock -->
+    <bool name="config_pocketModeSupported">false</bool>
+    <bool name="config_pocketUseLightSensor">false</bool>
+
 </resources>
