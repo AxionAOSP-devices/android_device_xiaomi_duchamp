@@ -378,3 +378,6 @@ PRODUCT_PACKAGES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/duchamp/duchamp-vendor.mk)
+
+# MIUI Camera
+$(call inherit-product, device/xiaomi/duchamp-miuicamera/device.mk)
