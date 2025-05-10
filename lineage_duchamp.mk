@@ -39,3 +39,13 @@ TARGET_INCLUDE_VIPERFX := true
 
 # Gapps
 WITH_GMS := true
+
+# Core groups
+AXION_CPU_SMALL_CORES := 0,1,2,3
+AXION_CPU_BIG_CORES := 4,5,6
+AXION_CPU_PRIME_CORE := 7
+
+# Task assignments
+AXION_CPU_BG := 0,1,2
+AXION_CPU_FG := 0,1,2,3,4,5
+AXION_CPU_LIMIT_BG := 0,1
